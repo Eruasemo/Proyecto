@@ -1,0 +1,35 @@
+# Ignorar archivos de estado de usuario de Construct 2
+*.uistate
+
+# Ignorar archivos de backup y temporales
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignorar archivos de caché y logs
+*.log
+*.cache
+
+# Ignorar archivos generados durante la exportación
+export/
+*.c2runtime
+
+# Ignorar el archivo de proyecto de Construct 2 (si no deseas rastrear cambios en él)
+*.c2project
+
+# Ignorar archivos específicos de Construct 2 que no deben ser versionados
+*.c2data
+*.c2user
+*.c2archive
+*.c2export
+
+# Ignorar archivos de sistema (dependiendo del sistema operativo)
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios generados por el sistema
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
